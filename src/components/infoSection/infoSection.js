@@ -2,7 +2,6 @@ import React from "react";
 import "./infoSection.css";
 import beach from '../../images/beach.png';
 import profilePicture from '../../images/profilePicture.png';
-import { directiveLiteral } from "@babel/types";
 
 const InfoSection = props => (
   <div className="infoSection"> 

@@ -1,11 +1,14 @@
 import React from "react";
-import "./infoSection.css";
+import "./contentSection.css";
 
 
 const ContentSection = props => (
-    <div></div>
+  <div className="contentSection"> 
+
+  
+
+  </div>
 
 );
-
 
 export default ContentSection;
