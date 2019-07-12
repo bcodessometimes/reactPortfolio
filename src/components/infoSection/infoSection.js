@@ -1,18 +1,15 @@
 import React from "react";
 import "./infoSection.css";
-import beach from '../../images/beach.png';
-import profilePicture from '../../images/profilePicture.png';
+import topImage from '../../images/topImage.png';
 
 const InfoSection = props => (
   <div className="infoSection"> 
 
     <div>
-    <img className="infoImage" src={beach} alt="beach"/>
+    <img className="infoImage" src={topImage} alt="beach"/>
     </div>
 
-    <div>
-    <img className="profilePicture" src={profilePicture} alt="me"/>
-    </div>
+  
 
     <div className="infoSectionName">
     <p className="infoSectionTextLarge">Rebecca Potter</p>

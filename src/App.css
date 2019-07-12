@@ -1,11 +1,18 @@
 body {
   background: linear-gradient(to top left, #66ff99 0%, #66ffff 86%);
+  background-repeat: no-repeat;
 }
+/* 
+.navBar {
+  margin: auto;
+} */
 
 .App {
   text-align: center;
+  margin: 10%;
+  margin-bottom: 10%;
 }
-
+/* 
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -14,7 +21,7 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;

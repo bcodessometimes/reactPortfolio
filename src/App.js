@@ -7,15 +7,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+    
         
         <NavBar />
-
         <InfoSection />
-
-        <ContentSection />
+        <ContentSection 
+        
+        
+        />
        
-      </header>
+    
     </div>
   );
 }
