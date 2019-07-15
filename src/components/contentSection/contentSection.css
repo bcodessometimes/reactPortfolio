@@ -1,6 +1,33 @@
 .contentSection {
-    max-width: 50%;
+    width: 60%;
     max-height: 80%;
     background-color: #ffffff;
     border-radius: 10px;
+    margin: auto;
+    float: left;
+    margin-bottom: 10%;
+    padding: 15px;
+}
+
+.contentHeader {
+    color: #5e5e5e;
+    font-size: 30px; 
+    text-decoration: none; 
+    font-weight: bold;
+    text-align: left;
+}
+
+.contentSubHeader {
+    color: #5e5e5e;
+    font-size: 15px; 
+    text-decoration: none; 
+    font-weight: bold;
+    text-align: left;
+}
+
+.contentBody {
+    color: #5e5e5e;
+    font-size: 15px; 
+    text-decoration: none;
+    text-align: left;
 }
