@@ -28,7 +28,7 @@ const NavBar = props => (
     <div className="navBtn">
     <a className="navLink" href="https://www.w3schools.com/html/">
     <i class="far far fa-envelope navBarText"></i>
-    <p className="navBarText">Contact Info</p>
+    <p className="navBarText">Contact</p>
     </a>
     </div>
 

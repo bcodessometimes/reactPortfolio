@@ -1,6 +1,5 @@
 body {
-  background: linear-gradient(to top left, #66ff99 0%, #66ffff 86%);
-  background-repeat: no-repeat;
+  background: linear-gradient(to top left, #66ff99 0%, #66ffff 86%) no-repeat center fixed;
 }
 /* 
 .navBar {
