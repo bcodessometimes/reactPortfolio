@@ -8,15 +8,13 @@ import ContactInfo from '../contactInfo/contactInfo';
 
 class ContentSection extends Component {
 
-  constructor() {
-    super()
-    this.state = {
-      displayedTable: "AboutMe",
-    }
+  constructor(props) {
+    super(props)
+    this.state = {}
 
   }
   renderComponent() {
-    switch (this.state.displayedTable) {
+    switch (this.props.fillContent) {
       case "AboutMe":
         return <AboutMe />
       case "Resume":
