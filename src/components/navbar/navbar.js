@@ -14,8 +14,6 @@ const navigation = {
 
 const NavBar = props => (
   
-
-
   <div className="navBar"> 
   
     <div className="navBtn">
