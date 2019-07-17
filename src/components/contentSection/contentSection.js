@@ -1,15 +1,36 @@
-import React from "react";
+import React, { Component } from "react";
 import "./contentSection.css";
 import AboutMe from '../aboutMe/aboutMe';
 
 
-const ContentSection = props => (
-  <div className="contentSection"> 
+class ContentSection extends Component {
 
-  <AboutMe/>
 
-  </div>
+  constructor() {
+    super()
+    this.state = {
+      displayedTable: "AboutMe",
+    }
 
-);
+  }
+  renderComponent() {
+    switch (this.state.displayedTable) {
+      case "AboutMe":
+        return <AboutMe />
+      // case "ShowPlayers":
+      //   return < />
+      default:
+    }
+  }
+
+  render() {
+    return (
+      <div className="contentSection">
+        {this.renderComponent()}
+      </div>
+    )
+  }
+}
 
 export default ContentSection;
+

@@ -1,11 +1,12 @@
 .infoSection {
-    width: 60%;
+    /* width: 60%; */
     max-height: 80%;
     background-color: #ffffff;
     border-radius: 10px;
-    margin: auto;
+    /* margin: auto; */
     float: left;
     margin-bottom: 10%;
+    overflow: visible;
 }
 
 .infoImage {

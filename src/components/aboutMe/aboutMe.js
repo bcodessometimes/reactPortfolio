@@ -9,6 +9,7 @@ const AboutMe = props => (
   <div className="contentHeader"> 
     <p>About Me</p>
   </div>
+  
   <div>
     <p className="contentSubHeader">Hello! I’m Rebecca Potter.</p>
     <p className="contentBody">Full Stack Web Developer from Utah. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.</p>

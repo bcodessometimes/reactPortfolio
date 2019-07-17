@@ -7,10 +7,18 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     
-        <NavBar />
-        <InfoSection />
-        <ContentSection />
+     <div class="row">
+      <div class="col-1">
+      <NavBar />
+      </div>
+      <div class="col-5">
+      <InfoSection />
+      </div>
+      <div class="col-6">
+      <ContentSection />
+      </div>
+
+     </div>
       
     </div>
   );
