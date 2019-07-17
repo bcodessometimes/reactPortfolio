@@ -11,7 +11,7 @@ function App() {
       <div class="col-1">
       <NavBar />
       </div>
-      <div class="col-5">
+      <div class="col-4">
       <InfoSection />
       </div>
       <div class="col-6">

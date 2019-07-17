@@ -1,7 +1,21 @@
 import React from "react";
 import "./navbar.css";
+import AboutMe from '../aboutMe/aboutMe';
+import Resume from '../resume/resume';
+import Portfolio from '../portfolio/portfolio';
+import ContactInfo from '../contactInfo/contactInfo';
+
+const navigation = {
+    "AboutMe": <AboutMe />,
+    "Resume": <Resume />,
+    "Portfolio": <Portfolio />,
+    "ContactInfo": <ContactInfo /> 
+}
 
 const NavBar = props => (
+  
+
+
   <div className="navBar"> 
   
     <div className="navBtn">
