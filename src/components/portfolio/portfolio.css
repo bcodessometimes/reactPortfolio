@@ -1,0 +1,12 @@
+.portfolioImage {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.portfolioSubHeader {
+    text-align: center;
+    color: #5e5e5e;
+    font-size: 25px; 
+    text-decoration: none; 
+    font-weight: bold;
+}

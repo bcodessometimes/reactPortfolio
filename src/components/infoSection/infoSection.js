@@ -24,7 +24,7 @@ const InfoSection = props => (
       </div>
 
       <div className="contactLinks" class="col">
-        <a className="navLink" href="https://www.w3schools.com/html/">
+        <a className="navLink" href="mailto:beccapotter12@gmail.com?Subject=I'd%20Like%20to%20Hire%20You!" target="_top">
           <p className="infoSectionText">Contact Me <i class="fas fa-mobile-alt"></i></p>
         </a>
       </div>
