@@ -1,6 +1,6 @@
 .contentSection {
     /* width: 60%; */
-    max-height: 80%;
+    max-height: 600px;
     background-color: #ffffff;
     border-radius: 10px;
     margin: auto;
@@ -20,7 +20,7 @@
 
 .contentSubHeader {
     color: #5e5e5e;
-    font-size: 15px; 
+    font-size: 20px; 
     text-decoration: none; 
     font-weight: bold;
     text-align: left;
@@ -31,4 +31,15 @@
     font-size: 15px; 
     text-decoration: none;
     text-align: left;
+}
+
+.contentAccent {
+    color: #8a8383;
+    font-size: 13px;
+    text-align: left;
+}
+
+.contentHighlight {
+    color: #6bf3b4;
+    font-size: 20px;
 }

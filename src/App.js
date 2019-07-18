@@ -14,16 +14,16 @@ function App() {
 
   return (
     <div className="App">
-     <div class="row">
-      <div class="col-1">
+     <div className="row">
+      <div className="col-1">
       <NavBar 
       setContent={changeDisplayContent}
       />
       </div>
-      <div class="col-4">
+      <div className="col-4">
       <InfoSection />
       </div>
-      <div class="col-6">
+      <div className="col-6">
       <ContentSection 
       fillContent={displayContent}
       />

@@ -14,6 +14,7 @@ class ContentSection extends Component {
 
   }
   renderComponent() {
+    console.log("State-" + this.props.fillContent)
     switch (this.props.fillContent) {
       case "AboutMe":
         return <AboutMe />
