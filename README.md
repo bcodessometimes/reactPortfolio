@@ -1,1 +1,5 @@
-This is my portfolio page, I will include a deployed link once its available!
+Welcome to my Portfolio Code! 
+
+Use this link to check it out!
+
+https://rebecca-potter.herokuapp.com/
